@@ -1,0 +1,53 @@
+.jumbotron{
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Plain-light-blue-background-1920x1080.jpg");
+    height: 270px;
+}
+.position-move{
+    position: absolute;
+    top: 30px;
+    left: 650px;
+}
+.centerbutton{
+    margin-left: 790px;
+}
+.acmefont{
+    font-family: 'Acme', sans-serif;
+    font-size: 30px;
+}
+.quote-resize{
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+    color: black;
+}
+.namecolor{
+    color: black;
+}
+.analystheading{
+    color: black;
+}
+.newwidth{
+    width: 1850px;
+}
+
+.mobile-photo{
+    height:200px;
+    width: 300px;
+    padding-left: 50px;
+}
+.marginleft{
+    margin-left: 160px;
+}
+button:hover{
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.cataloghover:hover{
+    transform: scale(1.1);
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}

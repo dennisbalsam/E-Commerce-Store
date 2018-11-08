@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/checkout.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash" rel="stylesheet">
+    <title>Checkout Page</title>
+    <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+
+
+</script>
+
+  </head>
+  <body>
+        <div class="no-gutters outside-container ">
+                <div class="jumbotron ">
+                        <img src  ="https://media.yourcentralvalley.com/nxsglobal/yourcentralvalley/photo/2015/07/14/Sports-Central-Logo_WEB_2125379_ver1.0.png" class ="  mx-auto d-none d-lg-block animated bounceIn slower infinite " alt="logo">
+                        <img src  ="https://media.yourcentralvalley.com/nxsglobal/yourcentralvalley/photo/2015/07/14/Sports-Central-Logo_WEB_2125379_ver1.0.png" class ="mx-auto  delay-2s d-xs-block d-sm-block d-md-block d-lg-none d-xl-none mobile-photo animated bounceIn slower infinite"  alt="logo" >
+                </div>
+            <div class="container inside-container bg-light  col-10 col-sm-10 col-md-10 col-lg-5 col-xl-5">
+                    <div class="alert-info"> <h1 class="text-center pt-3 pb-3 colorchange cherryswash"> Checkout</h1></div>
+
+                    <form class="needs-validation" novalidate action="orderplaced.html">
+                            <h1 class=" text-center pt-4">Personal Information</h1>
+                                    <div class="form-row">
+                                      <div class="col-md-5 ml-none mx-auto ">
+                                        <label for="firstname"></label>
+                                        <input type="text" class="form-control text-center" id="firstname" placeholder="First name"  required>
+                                        <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                        <div class="invalid-feedback text-center">
+                                          Enter your first name
+                                        </div>
+                                      </div>
+                                      <div class="col-md-5  mx-auto">
+                                        <label for="lastname"></label>
+                                        <input type="text" class="form-control text-center" id="lastname" placeholder="Last name"  required>
+                                        <div class="valid-feedback">
+                                                Success!
+                                        </div>
+                                        <div class="invalid-feedback text-center">
+                                          Enter your last name
+                                        </div>
+                                      </div>
+                                      <div class="col-md-11 mx-auto mb-3 ">
+                                        <label for="email"></label>
+                                        <div class="input-group">
+                                          <input type="email" class="form-control rounded text-center" id="email" placeholder="Email" required>
+                                          <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                          <div class="invalid-feedback text-center">
+                                            Please provide a valid email.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h1 class=" text-center pt-4">Shipping Address</h1>
+                                    
+                                         
+                                
+                    
+                                    <div class="form-row">
+                                            <div class="col-md-10 mb-3 text-center  ">
+                                                    <label for="city"></label>
+                                                    <input type="text" class="form-control text-center" id="streetaddress" placeholder="Street Address" required>
+                                                    <div class="valid-feedback text-center">
+                                                            Success!
+                                                    </div>
+                                                    
+                                                    <div class="invalid-feedback text-center">
+                                                      Please provide a valid city.
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-2 mb-3 ">
+                                                        <label for="city"></label>
+                                                        <input type="number" class="form-control text-center" id="apt" min="0" placeholder="Apt #">
+                                                      </div>
+                                    <div class="col-md-3 ">
+                                        
+                                        <select class="custom-select mt-4" id="selectcountry" required>
+                                                <option value="">--Select Country--</option>
+                                                <option value="1">United States</option>
+                                                <option value="2">Canada</option>
+                                                <option value="3">Mexico</option>
+                                              </select>
+                                         <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                <div class="invalid-feedback text-center">
+                                    Please choose a country.
+                                        </div>
+                                     </div>
+                                                      
+                                      <div class="col-md-3 mb-3 ">
+                                        <label for="city"></label>
+                                        <input type="text" class="form-control text-center" id="city" placeholder="City" required>
+                                        <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                        
+                                        <div class="invalid-feedback text-center">
+                                          Please provide a valid city.
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 mb-3 ">
+                                        <label for="state"></label>
+                                        <input type="text" class="form-control text-center" id="state" placeholder="State" required>
+                                        <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                        <div class="invalid-feedback text-center">
+                                          Please provide a valid state.
+                                        </div>
+                                      </div>
+                                      <div class="col-md-3 mb-3 ">
+                                        <label for="zipcode"></label>
+                                        <input type="number" class="form-control text-center" min="0" max="99999" id="zipcode" placeholder="Zip Code" required>
+                                        <div class="valid-feedback text-center">
+                                                Success!
+                                        </div>
+                                        <div class="invalid-feedback text-center">
+                                          Please provide a valid zip.
+                                        </div>
+                                      </div>
+                                      <div class="col-12 mb-3 form-check form-check-inline mt-3">
+                                      
+                                      <input type="radio" class= "form-check-input col-5 text-center" name="imgsel" value="" id="shipping" checked="checked">
+                                      <label for="shipping">Standard Shipping $3.99</label>
+                                    </div>
+                                    </div>
+                                    <h1 class=" text-center pt-4 mb-2">Payment Information</h1>
+                                   
+                                            <div class="form-row">
+                                            <div class="col-md-6  text-center ">
+                                                    <label for="city"></label>
+                                                    <input type="number" class="form-control text-center" min="100000000000001" id="cardnumber" placeholder="Card Number" required >
+                                                    <div class="valid-feedback text-center">
+                                                            Success!
+                                                    </div>
+                                                    
+                                                    <div class="invalid-feedback text-center">
+                                                      Please provide a card number.
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-2 ">
+                                                        <label for="city"></label>
+                                                        <input type="number" min="1" max="12" class="form-control text-center" id="expmonth"  placeholder="Exp. Month" required>
+                                                       
+                                                        <div class="invalid-feedback text-center">
+                                                                Please provide a proper expiration month.
+                                                        </div>
+                                                      </div>
+                                                  <div class="col-md-2  ">
+                                                        <label for="city"></label>
+                                                        <input type="number" min="2018" max="9999" class="form-control text-center" id="expyear"  placeholder="Exp. Year" required>
+                                                        <div class="invalid-feedback text-center">
+                                                                Please provide a proper expiration year.
+                                                        </div>
+                                                      </div>
+                                                      <div class="col-md-2 mb-3 mx-auto">
+                                                            <label for="city"></label>
+                                                            <input type="number" class="form-control text-center" id="securitycode"  min="0" max="9999" placeholder="CVV " required>
+                                                            <div class="invalid-feedback text-center">
+                                                                    Please provide a security code.
+                                                            </div>
+                                                     </div>
+                                                     
+                                                    </div>
+                               
+
+                    
+                    
+                    <h1 class=" text-center pt-4">Billing Address</h1>
+                                    
+                    <div class="form-row">
+                            <div class="col-md-10 mb-3 text-center  ">
+                                    <label for="city"></label>
+                                    <input type="text" class="form-control text-center" id="billing-streetaddress" placeholder="Street Address" required>
+                                    <div class="valid-feedback text-center">
+                                            Success!
+                                    </div>
+                                    
+                                    <div class="invalid-feedback text-center">
+                                      Please provide an address.
+                                    </div>
+                                  </div>
+                                  <div class="col-md-2 mb-3 ">
+                                        <label for="city"></label>
+                                        <input type="number" class="form-control text-center" id="billing-apt" min="0" placeholder="Apt #">
+                                      </div>
+                    <div class="col-md-3 ">
+                        <label for="selectcountry"></label>
+                        <select class="custom-select" id="billing-selectcountry" required>
+                                <option value="">--Select Country--</option>
+                                <option value="1">United States</option>
+                                <option value="2">Canada</option>
+                                <option value="3">Mexico</option>
+                              </select>
+                         <div class="valid-feedback text-center">
+                                Success!
+                        </div>
+                    <div class="invalid-feedback text-center">
+                    Please choose a country.
+                        </div>
+                     </div>
+                                      
+                      <div class="col-md-3 mb-3 ">
+                        <label for="city"></label>
+                        <input type="text" class="form-control text-center" id="billing-city" placeholder="City" required>
+                        <div class="valid-feedback text-center">
+                                Success!
+                        </div>
+                        
+                        <div class="invalid-feedback text-center">
+                          Please provide a valid city.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3 ">
+                        <label for="state"></label>
+                        <input type="text" class="form-control text-center" id="billing-state" placeholder="State" required>
+                        <div class="valid-feedback text-center">
+                                Success!
+                        </div>
+                        <div class="invalid-feedback text-center">
+                          Please provide a valid state.
+                        </div>
+                      </div>
+                      <div class="col-md-3 mb-3 ">
+                        <label for="zipcode"></label>
+                        <input type="number" class="form-control text-center" max="99999" id="billing-zipcode" placeholder="Zip Code" required>
+                        <div class="valid-feedback text-center">
+                                Success!
+                        </div>
+                        <div class="invalid-feedback text-center">
+                          Please provide a valid zip.
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <div class="form-row">
+                            <div class="d-flex flex-column col-6  mt-5 alert-info bd-highlight mb-3 mx-auto border border-dark">
+                                    <div class="p-2  bd-highlight">Subtotal: <span class="float-right ">$257.96</span></div>
+                                    <div class="p-2 bd-highlight">Tax: <span class="float-right ">$22.91</span></div>
+                                    <div class="p-2 bd-highlight">Standard Shipping: <span class="float-right ">$3.99</span></div>
+                                    <div class="p-2 bd-highlight border-top border-dark">Total: <span class="float-right ">$284.86</span></div>
+                                  </div>
+                    </div>
+                    <div class="form-row">
+                    
+                  <button class="btn btn-primary text-center mb-5 mx-auto mt-5 col-6 alert-info" type="submit"> Place Order</button>
+                  
+                    </div>
+                    </form>
+                           
+
+  
+         
+
+    
+               
+            
+
+
+
+
+    </div>
+
+</div>
+
+  </body>
+</html>

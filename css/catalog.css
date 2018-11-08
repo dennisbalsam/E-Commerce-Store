@@ -1,0 +1,53 @@
+.jumbotron{
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Plain-light-blue-background-1920x1080.jpg");
+    height: 280px;
+}
+
+.muli-font{
+    font-family: 'Muli', sans-serif;
+}
+.card-body{
+    height: 190px;
+}
+.oxygen-font{
+    font-family: 'Oxygen', sans-serif;
+}
+.playerofweekfont{
+    font-size: 25px;
+}
+.amaranth{
+    font-family: 'Amaranth', sans-serif;
+}
+.shirkhand{
+    font-family: 'Shrikhand', cursive;
+}
+.cart{
+    height: 70px;
+    width: 70px;
+    position:fixed;
+    right: 50px;
+    bottom: 20px;
+}
+.carttext{
+    position: fixed;
+    font-size: 20px;
+    right: 40px;
+    bottom: 90px;
+    display: none;
+}
+.cartbox:hover .carttext {
+    display: inline-block;
+}
+.mobile-photo{
+    height:200px;
+    width: 300px;
+    padding-left: 50px;
+}
+.bigger-font{
+    font-size: 25px;
+}
+.cart-slightly-up{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}

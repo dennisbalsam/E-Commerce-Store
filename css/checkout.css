@@ -1,0 +1,24 @@
+.jumbotron{
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Plain-light-blue-background-1920x1080.jpg");
+    height: 270px;
+}
+.position-move{
+    position: absolute;
+    top: 30px;
+    left: 650px;
+}
+.mobile-photo{
+    height:200px;
+    width: 300px;
+    padding-left: 50px;
+}
+.cherryswash{
+    font-family: 'Cherry Swash', cursive;
+}
+.inside-container{
+    height: 1500px;
+}
+.outside-container{
+    height: 2050px;
+    background-color: white;
+}

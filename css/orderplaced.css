@@ -1,0 +1,31 @@
+.jumbotron{
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Plain-light-blue-background-1920x1080.jpg");
+    height: 270px;
+}
+.position-move{
+    position: absolute;
+    top: 30px;
+    left: 650px;
+}
+.mobile-photo{
+    height:200px;
+    width: 300px;
+    padding-left: 50px;
+}
+.outside-container{
+    height: 300px;
+    background-color: white;
+}
+.inside-container{
+    height: 300px;
+}
+.font-size-change{
+    font-size: 70px;
+}
+.change-text{
+
+    font-size: 30px;
+}
+.spicy-rice-font{
+    font-family: 'Spicy Rice', cursive;
+}

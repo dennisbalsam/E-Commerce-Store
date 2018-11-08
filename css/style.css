@@ -1,0 +1,56 @@
+.jumbotron{
+    background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/05/Plain-light-blue-background-1920x1080.jpg");
+    height: 600px;
+}
+
+.muli-font{
+    font-family: 'Muli', sans-serif;
+}
+.card-body{
+    height: 230px;
+}
+a:hover{
+    text-decoration: none;
+    list-style-type: none;
+    transform: scale(1.1);
+    margin-top: 20px;
+}
+
+
+.position-move{
+    margin-top: 70px;
+    padding-right: 75px;
+}
+
+.alert-resize{
+    width: 270px;
+    position: absolute;
+    left: 1300px;
+    display: none;
+    font-family: 'Muli', sans-serif;
+    color: red;
+}
+.alert-resize-mobile{
+    width: 270px;
+    font-family: 'Muli', sans-serif;
+    color: red;
+    position: absolute;
+    left: 60px;
+    margin-top: 30px;
+    font-family: 'Muli', sans-serif;
+}
+.enteraboutpage:hover .alert-appear {
+    display: inline-block;
+}
+
+.oxygen-font{
+    font-family: 'Oxygen', sans-serif;
+}
+.mobile-photo{
+    height:200px;
+    width: 300px;
+    padding-left: 30px;
+}
+.playerofweekfont{
+    font-size: 25px;
+}
